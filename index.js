@@ -81,21 +81,21 @@ console.log(noValue, undef);
 // N.B. READ WITH UNDERSTANDING!!!
 //  1.  Create 3 functions to convert R1000 into dollars, euros and pounds. Take function naming into consideration!
 function euro(rand){
-    const eur = 19.71;
+    const eur = 0.054;
     console.log(rand * eur);
 }
 // declare value of the rand
 euro(1000);
 
 function dollars(rand){
-    const dol = 18.48;
+    const dol = 0.054;
     console.log(rand * dol);
 }
 // declare value of the rand
 dollars(1000);
 
 function pounds(rand){
-    const pound = 22.63;
+    const pound = 0.054;
     console.log(rand * pound);
 }
 // declare value of the rand
